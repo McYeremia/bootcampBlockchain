@@ -12,7 +12,7 @@ contract LendingTest is Test {
     address usdc = 0xaf88d065e77c8cC2239327C5EDb3A432268e5831;
 
     function setUp() public{
-        vm.createSelectFork("https://arb-mainnet.g.alchemy.com/v2/ToTEKgHFOepB5_7hGXd1UDW9Gt2K-8cj", 151361772);
+        vm.createSelectFork("//isi pake rpc", //isi pake lastblock);
         lending = new Lending();
     }
 
