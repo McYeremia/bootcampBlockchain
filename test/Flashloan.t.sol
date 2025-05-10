@@ -13,7 +13,7 @@ contract FlashloanTest is Test {
     address aWeth = 0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8;
 
     function setUp() public{
-        vm.createSelectFork("https://arb-mainnet.g.alchemy.com/v2/ToTEKgHFOepB5_7hGXd1UDW9Gt2K-8cj", 151361772);
+        vm.createSelectFork("//isi pake rpc", //isi pake last block);
         flashloan = new Flashloan();
     }
 
